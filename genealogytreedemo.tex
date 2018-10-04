@@ -1,0 +1,109 @@
+\documentclass{article}
+    \usepackage{geometry}
+    \usepackage[templates]{genealogytree}
+    \usepackage{lmodern}
+    \usepackage{fontspec}
+    \usepackage{verbatim}
+    \usepackage[object=vectorian]{pgfornament} % also loads tikz
+    \setmainfont{[kalpurush.ttf]}
+    
+    \begin{document}
+    \begin{figure}
+    \noindent\resizebox{\textwidth}{!}{
+    \begin{genealogypicture}[
+      template=signpost,
+      level distance=10mm,
+      level size=8mm,
+      node size=15mm,
+      box={colback=white,sharp corners},
+      mark/.style={box={colback=blue!20}},
+      edges={foreground={line width=1pt,red,-LaTeX,},background={line width=2pt,white}}
+      ]
+
+  child{
+    g{ কাজী কোরবান আলী  }
+    child{
+        g{ কাজী এনায়েতউল্লাহ  }
+        child{
+        g{ কাজী শাহাদাতউল্লাহ}
+            % #1
+        child{
+          g{ কাজী শাহজাহান }
+
+        }% #2
+        child{
+          g{ কাজী সাজেদুর রহমান }
+
+        }% #3
+        child{
+          g{ কাজী শাহমাহমুদ }
+
+        }% #4
+        child{
+          g{ কাজী শাখাওয়াত  }
+
+        }% #5
+        child{
+          g{ কাজী সহিদুর রহমান}
+
+        }% #6
+        child{
+          g{ কাজী সালেহা খাতুন }
+
+        }% #7
+        child{
+          g{ কাজী সালেমা খাতুন }
+
+        }% #8
+        child{
+          g{ কাজী শাহজালাল }
+
+        }
+      }
+        child{
+        g{ কাজী এজারতউল্লাহ  }
+        %1
+        child{
+          g{ কাজী মোশাররফ হোসেন }
+  
+        }
+        %2
+        child{
+        g{ কাজী মোতাহার হোসেন  }
+
+      }
+      %3
+      child{
+        g{ কাজী মোহাম্মদ হোসেন }
+
+      }
+      %4
+      child{
+        g{ কাজী মনোয়ার সুলতানা }
+
+      }%5
+      child{
+        g{ কাজী মুন্নু বেগম }
+
+      }
+
+        }
+      }
+      % 
+      child{
+        g{ কাজী ইউসুফ আলী }
+
+      }
+    }
+    \end{genealogypicture}
+    }
+    \begin{comment}
+      % #
+      child{
+        g{ কাজী }
+
+      }
+      \end{comment}
+    \caption{কাজী পরিবার}
+    \end{figure}
+    \end{document}

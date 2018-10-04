@@ -1,0 +1,26 @@
+\documentclass{scrartcl}
+    %%%%%%%%
+    % from https://tex.stackexchange.com/a/99659/586 
+    \usepackage{polyglossia}
+    % \setmainlanguage[numerals=Devanagari]{bengali}
+    \setmainlanguage{bengali}
+    
+    \setotherlanguage{english}
+    \newfontfamily\englishfont[Scale=MatchLowercase]{Linux Biolinum O}
+    \newfontfamily\bengalifont[Script=Bengali]{kalpurush.ttf}
+    %%%%%%%%
+    
+    \usepackage[utf8]{inputenc} 
+    \usepackage[T1]{fontenc} 
+    \usepackage[dvipsnames]{xcolor}
+    \usepackage{tikzrput}
+    \usepackage[object=vectorian]{pgfornament} 
+    \begin{document} 
+     এটা টেস্ট
+    \begin{center}   
+        \begin{picture}(10,10)%
+            \put(0,0){\line(1,1){3}}
+        
+        \end{picture}
+    \end{center}
+\end{document} 
