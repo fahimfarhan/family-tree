@@ -2,4 +2,4 @@
 *.log
 *.fdb_latexmk
 *.fls
-script.sh
+myscript.sh
