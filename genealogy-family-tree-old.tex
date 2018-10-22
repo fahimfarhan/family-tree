@@ -1,13 +1,11 @@
 \documentclass{article}
-  \usepackage[paperheight=12in,paperwidth=120in]{geometry}
+  \usepackage[paperheight=10in,paperwidth=100in]{geometry}
     \usepackage[templates]{genealogytree}
     \usepackage{lmodern}
     \usepackage{fontspec}
     \usepackage{verbatim}
-    \usepackage{xcolor}
     \usepackage[object=vectorian]{pgfornament} % also loads tikz
     \setmainfont{[kalpurush.ttf]}
-    \definecolor{spous-color}{HTML}{006600}
     
 
 
@@ -21,9 +19,9 @@
     \noindent\resizebox{\textwidth}{!}{
     \begin{genealogypicture}[
       template=signpost,
-      level distance=15mm,
-      level size=12mm,
-      node size=20mm,
+      level distance=10mm,
+      level size=8mm,
+      node size=15mm,
       box={colback=white,sharp corners},
       mark/.style={box={colback=blue!20}},
       edges={foreground={line width=1pt,red,-LaTeX,},background={line width=2pt,white}}
@@ -68,14 +66,9 @@
       child{
         g{ কাজী ফিরোজ }
            % #
-            child{ g{ কাজী ফারাহ এলা  \\
-                {\color{spous-color} এম ডি জসিমউদ্দিন } 
-              } 
-            }
+            child{ g{ কাজী ফারাহ এলা } }
             % #
-            child{ g{ কাজী ফারজানা ফিরোজ ঊষা \\
-             {\color{spous-color} জয় মুরশেদ }
-            } }
+            child{ g{ কাজী ফারজানা ফিরোজ ঊষা } }
       }   
           %######################
         }
@@ -191,16 +184,12 @@
               child{
                 g{ কাজী মোশাররফ হোসেন }
                   % #
-                  child{    g{ কাজী মুশতাক হোসেন \\
-                  {\color{spous-color} মোহসিনা আখতার } 
-                  }
+                  child{    g{ কাজী মুশতাক হোসেন }
                     child{    g{ কাজী ফাহিম ফারহান }   }
                     child{    g{ কাজী ঋতি মাহপারা (প্রগতি) }   }
                   }
                 % #
-                  child{    g{ কাজী মাহবুব হোসেন \\
-                    {\color{spous-color} শিখা } 
-                  }
+                  child{    g{ কাজী মাহবুব হোসেন }
                     child{    g{ কাজী সাদমান সামিন  }   }
                     child{    g{ কাজী শামিলা আরিতা লাইসা }   }
                   }
@@ -217,7 +206,7 @@
                   child{    g{ মালিহা নওশীন রাইতা    }   }
                   child{    g{ আনিকা সাদিয়া ফারিহা }   }
               }
-              child{    g{ কাজী রেজানুর রহমান \\ {\color{spous-color} পিয়া  } } 
+              child{    g{ কাজী রেজানুর রহমান } 
                   child{    g{ কাজী আরিফ হামাম সামি }   }
               }
             }
@@ -238,7 +227,7 @@
                   child{ g{ আনিকা }  }
                   child{ g{ আবরার }  }
                 }
-                child{ g{ মওদুদা হাসনিন শিল্পী \\ {\color{spous-color} তফাজ্জল } }
+                child{ g{ মওদুদা হাসনিন শিল্পী }
                     child{ g{ আজয়াদ তাহ্মিদ আয়ন   }  }
                     child{ g{ অর্ক }  }
                   }

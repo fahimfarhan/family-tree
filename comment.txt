@@ -1,1 +1,7 @@
 child{ g{ কাজী }  }
+
+child{ 
+    g{ কাজী 
+        \\ {\color{spous-color}  }
+    }  
+}
